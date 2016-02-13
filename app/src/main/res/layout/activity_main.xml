@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sbartsch.diplomatenkennzeichen.MainActivity"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/i_numberplate_kennzeichenrahmen"
+            android:layout_marginLeft="@dimen/activity_left_margins">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewNumberPlate1"
+                android:src="@drawable/i_digit_nummer_eu_d" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_number_width"
+                android:layout_height="@dimen/activity_number_height"
+                android:id="@+id/imageViewNumberPlate2"
+                android:src="@drawable/i_digit_nummer0"
+                android:layout_marginTop="@dimen/activity_number_top_margin" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_number_width"
+                android:layout_height="@dimen/activity_number_height"
+                android:id="@+id/imageViewNumberPlate3"
+                android:src="@drawable/i_digit_nummer_wappen_settings"
+                android:layout_marginTop="@dimen/activity_number_top_margin" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_number_width"
+                android:layout_height="@dimen/activity_number_height"
+                android:id="@+id/imageViewNumberPlate4"
+                android:src="@drawable/i_digit_nummerleer"
+                android:layout_marginTop="@dimen/activity_number_top_margin" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_number_width"
+                android:layout_height="@dimen/activity_number_height"
+                android:id="@+id/imageViewNumberPlate5"
+                android:src="@drawable/i_digit_nummerleer"
+                android:layout_marginTop="@dimen/activity_number_top_margin" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_number_width"
+                android:layout_height="@dimen/activity_number_height"
+                android:id="@+id/imageViewNumberPlate6"
+                android:src="@drawable/i_digit_nummer1"
+                android:layout_marginTop="@dimen/activity_number_top_margin" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_number_width"
+                android:layout_height="@dimen/activity_number_height"
+                android:id="@+id/imageViewNumberPlate7"
+                android:src="@drawable/i_digit_nummerleer"
+                android:layout_marginTop="@dimen/activity_number_top_margin" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_number_width"
+                android:layout_height="@dimen/activity_number_height"
+                android:id="@+id/imageViewNumberPlate8"
+                android:src="@drawable/i_digit_nummerleer"
+                android:layout_marginTop="@dimen/activity_number_top_margin" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_number_width"
+                android:layout_height="@dimen/activity_number_height"
+                android:id="@+id/imageViewNumberPlate9"
+                android:src="@drawable/i_digit_nummerleer"
+                android:layout_marginTop="@dimen/activity_number_top_margin" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="@dimen/activity_flag_height"
+                android:id="@+id/imageViewFlag"
+                android:src="@drawable/i_flag_1"
+                android:layout_marginLeft="@dimen/activity_left_margins" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bundespräsident"
+                android:id="@+id/textView"
+                android:textSize="@dimen/activity_text_size"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="@dimen/activity_left_margins"
+                android:singleLine="false"
+                android:elegantTextHeight="false" />
+
+        </LinearLayout>
+
+        <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/webView"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignLeft="@+id/linearLayout"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_marginTop="@dimen/activity_webview_top_margin" />
+    </LinearLayout>
+
+</RelativeLayout>

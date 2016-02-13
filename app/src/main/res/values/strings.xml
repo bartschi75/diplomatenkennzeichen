@@ -1,0 +1,816 @@
+﻿<resources>
+    <string name="app_name">Diplomatenkennzeichen</string>
+    <string name="title_activity_einstellungen">Einstellungen</string>
+    <string name="pref_speech">Sprachausgabe</string>
+    <string name="pref_connection">Internetverbindung</string>
+    <string name="pref_einstellungen">Einstellungen</string>
+    <string name="pref_info">Info</string>
+
+    <string-array name="string_array_countries">
+        <item>Bundespräsident</item>
+        <item>Bundeskanzlerin</item>
+        <item>Bundesminister des Auswärtigen</item>
+        <item>Erster Staatssekretär des Auswärtigen Amts</item>
+        <item>Zweiter Staatssekretär des Auswärtigen Amts</item>
+        <item>Nuntius des Diplomatischen Corps</item>
+
+        <item>Vatikanstadt</item>
+        <item>Ägypten</item>
+        <item>Angola</item>
+        <item>Albanien</item>
+        <item>Äthiopien</item>
+        <item>Afghanistan</item>
+        <item>Algerien</item>
+        <item>Vereinigte Staaten von Amerika</item>
+        <item>Argentinien</item>
+        <item>Australien</item>
+        <item>Bangladesch</item>
+        <item>Belgien</item>
+        <item>Brunei</item>
+        <item>Bulgarien</item>
+        <item>Myanmar</item>
+        <item>Bolivien</item>
+        <item>Brasilien</item>
+        <item>Burundi</item>
+        <item>Chile</item>
+        <item>Volksrepublik China</item>
+        <item>Costa Rica</item>
+        <item>Weißrussland</item>
+        <item>Bosnien und Herzegowina</item>
+        <item>Äquatorialguinea</item>
+        <item>Dänemark</item>
+        <item>Benin</item>
+        <item>Dominikanische Republik</item>
+        <item>Ecuador</item>
+        <item>Elfenbeinküste</item>
+        <item>El Salvador</item>
+        <item>Kosovo</item>
+        <item>Estland</item>
+        <item>Fürstentum Liechtenstein</item>
+        <item>Montenegro</item>
+        <item>Finnland</item>
+        <item>Frankreich</item>
+        <item>Gabun</item>
+        <item>Ghana</item>
+        <item>Griechenland</item>
+        <item>Großbritannien</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Lettland</item>
+        <item>Litauen</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Indien</item>
+        <item>Indonesien</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Irland</item>
+        <item>Island</item>
+        <item>Laos</item>
+        <item>Inseln von Kap Verde</item>
+        <item>Israel</item>
+        <item>Italien</item>
+        <item>Jamaika</item>
+        <item>Japan</item>
+        <item>Jemen</item>
+        <item>Jordanien</item>
+        <item>Serbien</item>
+        <item>Kuwait</item>
+        <item>Kuba</item>
+        <item>Katar</item>
+        <item>Kamerun</item>
+        <item>Kanada</item>
+        <item>Kenia</item>
+        <item>Kolumbien</item>
+        <item>Republik Kongo</item>
+        <item>Südkorea</item>
+        <item>Libanon</item>
+        <item>Liberia</item>
+        <item>Libyen</item>
+        <item>Lesotho</item>
+        <item>Luxemburg</item>
+        <item>Madagaskar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Mali</item>
+        <item>Marokko</item>
+        <item>Mauretanien</item>
+        <item>Mexiko</item>
+        <item>Malta</item>
+        <item>Monaco</item>
+        <item>Nepal</item>
+        <item>Neuseeland</item>
+        <item>Nicaragua</item>
+        <item>Niederlande</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Norwegen</item>
+        <item>Mongolei</item>
+        <item>Mosambik</item>
+        <item>Oman</item>
+        <item>Burkina Faso</item>
+        <item>Österreich</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippinen</item>
+        <item>Polen</item>
+        <item>Portugal</item>
+        <item>Papua Neuguinea</item>
+        <item>Namibia</item>
+        <item>Ruanda</item>
+        <item>Rumänien</item>
+        <item>Sambia</item>
+        <item>Saudi Arabien</item>
+        <item>Schweden</item>
+        <item>Schweiz</item>
+        <item>Senegal</item>
+        <item>Sierra Leone</item>
+        <item>Singapur</item>
+        <item>Simbabwe</item>
+        <item>Somalia</item>
+        <item>Spanien</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Südafrika</item>
+        <item>Syrien</item>
+        <item>Tansania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Tschechien</item>
+        <item>Tschad</item>
+        <item>Türkei</item>
+        <item>Tunesien</item>
+        <item>Uganda</item>
+        <item>Russland</item>
+        <item>Uruguay</item>
+        <item>Ungarn</item>
+        <item>Ukraine</item>
+        <item>Grenada</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Vereinigte Arabische Emirate</item>
+        <item>Demokratische Republik Kongo</item>
+        <item>Zentralafrikanische Republik</item>
+        <item>Zypern</item>
+        <item>Kroatien</item>
+        <item>Slowenien</item>
+        <item>Aserbaidschan</item>
+        <item>Slowakei</item>
+        <item>Kasachstan</item>
+        <item>Mazedonien</item>
+        <item>Usbekistan</item>
+        <item>Eritrea</item>
+        <item>Georgien</item>
+        <item>Tadschikistan</item>
+        <item>Bahrain</item>
+        <item>Kambodscha</item>
+        <item>Armenien</item>
+        <item>Kirgisistan</item>
+        <item>Moldawien</item>
+        <item>Turkmenistan</item>
+
+        <item>Internationale Arbeitsorganisation (ILO)</item>
+        <item>Europäische Zentralbank (EZB)</item>
+        <item>Vereinte Nationen</item>
+        <item>Gemeinsame Organisation für Rüstungskooperation (OCCAR)</item>
+        <item>Internationale Organisation für Migration (IOM)</item>
+        <item>Arabische Liga|Büro der Liga der Arabischen Staaten</item>
+        <item>Deutsch-Französisches Jugendwerk (DFJW); Generalsekretariat</item>
+        <item>Europäische Südsternwarte (ESO)</item>
+        <item>Europäisches Laboratorium für Molekularbiologie (EMBL)</item>
+        <item>Europäische Kommission</item>
+        <item>Welternährungsprogramm der Vereinten Nationen – Büro Berlin – </item>
+        <item>Deutsch-Polnisches Jugendwerk (DPJW)</item>
+        <item>Weltbank (IFC)</item>
+        <item>Weltgesundheitsorganisation</item>
+        <item>Umweltprogramm der Vereinten Nationen (GMS)</item>
+        <item>Sekretariat der Klimarahmen-Konvention (UNFCCC)</item>
+        <item>Freiwilligenprogramm der Vereinten Nationen (UNV)</item>
+        <item>Internationaler Seegerichtshof (ISGH)</item>
+        <item>UN-Einrichtungen in Bonn (UNIC)</item>
+        <item>UN-Sekretariat der Wüstenkonvention (UNCCD)</item>
+        <item>Internationales Zentrum für Berufsbildung</item>
+        <item>Universität der Vereinten Nationen</item>
+
+        <item>Mauritius</item>
+        <item>Demokratische Volksrepublik Korea</item>
+        <item>Dschibuti</item>
+        <item>Guinea Bissau</item>
+        <item>Südsudan</item>
+        <item>Botsuana</item>
+
+        <item>Plattform der Vereinten Nationen für raumfahrtgestützte Informationen für Katastrophenmanagement und Notfallmaßnahmen (UNOOSA/UN-SPIDER)</item>
+        <item>Sekretariat für die Studie „Die Ökonomie der Ökosysteme und der biologischen Vielfalt“ (UNEP/TEEB)</item>
+        <item>Internationale Organisation für Erneuerbare Energien (IRENA/IITC)</item>
+        <item>Welttreuhandfonds für Kulturpflanzenvielfalt (Global Crop Diversity Trust)</item>
+    </string-array>
+
+    <string-array name="string_array_country_codes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+        <item>116</item>
+        <item>117</item>
+        <item>118</item>
+        <item>119</item>
+        <item>120</item>
+        <item>121</item>
+        <item>122</item>
+        <item>123</item>
+        <item>124</item>
+        <item>125</item>
+        <item>126</item>
+        <item>127</item>
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+        <item>131</item>
+        <item>132</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+        <item>136</item>
+        <item>137</item>
+        <item>138</item>
+        <item>139</item>
+        <item>140</item>
+        <item>141</item>
+        <item>142</item>
+        <item>143</item>
+        <item>144</item>
+        <item>146</item>
+        <item>147</item>
+        <item>148</item>
+        <item>151</item>
+        <item>152</item>
+        <item>153</item>
+        <item>154</item>
+        <item>155</item>
+        <item>156</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>160</item>
+        <item>161</item>
+        <item>162</item>
+        <item>163</item>
+        <item>164</item>
+        <item>165</item>
+        <item>166</item>
+        <item>167</item>
+        <item>168</item>
+        <item>169</item>
+
+        <item>170</item>
+        <item>171</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>180</item>
+        <item>181</item>
+        <item>182</item>
+        <item>185</item>
+        <item>189</item>
+        <item>190</item>
+        <item>191</item>
+        <item>192</item>
+        <item>193</item>
+        <item>194</item>
+        <item>195</item>
+        <item>196</item>
+        <item>197</item>
+        <item>198</item>
+        <item>199</item>
+
+        <item>200</item>
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+        <item>205</item>
+
+        <item>300</item>
+        <item>301</item>
+        <item>302</item>
+        <item>303</item>
+    </string-array>
+
+    <string-array name="string_array_places">
+        <item>Deutschland</item>
+        <item>Deutschland</item>
+        <item>Deutschland</item>
+        <item>Deutschland</item>
+        <item>Deutschland</item>
+        <item>Deutschland</item>
+
+        <item>Vatikanstadt</item>
+        <item>Ägypten</item>
+        <item>Angola</item>
+        <item>Albanien</item>
+        <item>Äthiopien</item>
+        <item>Afghanistan</item>
+        <item>Algerien</item>
+        <item>Vereinigte Staaten von Amerika</item>
+        <item>Argentinien</item>
+        <item>Australien</item>
+        <item>Bangladesch</item>
+        <item>Belgien</item>
+        <item>Brunei</item>
+        <item>Bulgarien</item>
+        <item>Myanmar</item>
+        <item>Bolivien</item>
+        <item>Brasilien</item>
+        <item>Burundi</item>
+        <item>Chile</item>
+        <item>Volksrepublik China</item>
+        <item>Costa Rica</item>
+        <item>Weißrussland</item>
+        <item>Bosnien und Herzegowina</item>
+        <item>Äquatorialguinea</item>
+        <item>Dänemark</item>
+        <item>Benin</item>
+        <item>Dominikanische Republik</item>
+        <item>Ecuador</item>
+        <item>Elfenbeinküste</item>
+        <item>El Salvador</item>
+        <item>Kosovo</item>
+        <item>Estland</item>
+        <item>Fürstentum Liechtenstein</item>
+        <item>Montenegro</item>
+        <item>Finnland</item>
+        <item>Frankreich</item>
+        <item>Gabun</item>
+        <item>Ghana</item>
+        <item>Griechenland</item>
+        <item>Großbritannien</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Lettland</item>
+        <item>Litauen</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Indien</item>
+        <item>Indonesien</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Irland</item>
+        <item>Island</item>
+        <item>Laos</item>
+        <item>Inseln von Kap Verde</item>
+        <item>Israel</item>
+        <item>Italien</item>
+        <item>Jamaika</item>
+        <item>Japan</item>
+        <item>Jemen</item>
+        <item>Jordanien</item>
+        <item>Serbien</item>
+        <item>Kuwait</item>
+        <item>Kuba</item>
+        <item>Katar</item>
+        <item>Kamerun</item>
+        <item>Kanada</item>
+        <item>Kenia</item>
+        <item>Kolumbien</item>
+        <item>Republik Kongo</item>
+        <item>Südkorea</item>
+        <item>Libanon</item>
+        <item>Liberia</item>
+        <item>Libyen</item>
+        <item>Lesotho</item>
+        <item>Luxemburg</item>
+        <item>Madagaskar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Mali</item>
+        <item>Marokko</item>
+        <item>Mauretanien</item>
+        <item>Mexiko</item>
+        <item>Malta</item>
+        <item>Monaco</item>
+        <item>Nepal</item>
+        <item>Neuseeland</item>
+        <item>Nicaragua</item>
+        <item>Niederlande</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Norwegen</item>
+        <item>Mongolei</item>
+        <item>Mosambik</item>
+        <item>Oman</item>
+        <item>Burkina Faso</item>
+        <item>Österreich</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippinen</item>
+        <item>Polen</item>
+        <item>Portugal</item>
+        <item>Papua Neuguinea</item>
+        <item>Namibia</item>
+        <item>Ruanda</item>
+        <item>Rumänien</item>
+        <item>Sambia</item>
+        <item>Saudi Arabien</item>
+        <item>Schweden</item>
+        <item>Schweiz</item>
+        <item>Senegal</item>
+        <item>Sierra Leone</item>
+        <item>Singapur</item>
+        <item>Simbabwe</item>
+        <item>Somalia</item>
+        <item>Spanien</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Südafrika</item>
+        <item>Syrien</item>
+        <item>Tansania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Tschechien</item>
+        <item>Tschad</item>
+        <item>Türkei</item>
+        <item>Tunesien</item>
+        <item>Uganda</item>
+        <item>Russland</item>
+        <item>Uruguay</item>
+        <item>Ungarn</item>
+        <item>Ukraine</item>
+        <item>Grenada</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Vereinigte Arabische Emirate</item>
+        <item>Demokratische Republik Kongo</item>
+        <item>Zentralafrikanische Republik</item>
+        <item>Zypern</item>
+        <item>Kroatien</item>
+        <item>Slowenien</item>
+        <item>Aserbaidschan</item>
+        <item>Slowakei</item>
+        <item>Kasachstan</item>
+        <item>Mazedonien</item>
+        <item>Usbekistan</item>
+        <item>Eritrea</item>
+        <item>Georgien</item>
+        <item>Tadschikistan</item>
+        <item>Bahrain</item>
+        <item>Kambodscha</item>
+        <item>Armenien</item>
+        <item>Kirgisistan</item>
+        <item>Moldawien</item>
+        <item>Turkmenistan</item>
+
+        <item>Berlin</item>
+        <item>Frankfurt am Main</item>
+        <item>Berlin</item>
+        <item>Bonn</item>
+        <item>Berlin</item>
+        <item>Berlin</item>
+        <item>Berlin</item>
+        <item>Garching bei München</item>
+        <item>Heidelberg</item>
+        <item>Deutschland</item>
+        <item>Berlin</item>
+        <item>Potsdam</item>
+        <item>Frankfurt am Main</item>
+        <item>Bonn</item>
+        <item>Bonn</item>
+        <item>Bonn</item>
+        <item>Bonn</item>
+        <item>Hamburg</item>
+        <item>Bonn</item>
+        <item>Bonn</item>
+        <item>Bonn</item>
+        <item>Bonn</item>
+
+        <item>Mauritius</item>
+        <item>Demokratische Volksrepublik Korea</item>
+        <item>Dschibuti</item>
+        <item>Guinea Bissau</item>
+        <item>Südsudan</item>
+        <item>Botsuana</item>
+
+        <item>Bonn</item>
+        <item>Bonn</item>
+        <item>Bonn</item>
+        <item>Bonn</item>
+    </string-array>
+
+    <string-array name="string_array_speeches">
+        <item>Ein Fahrzeug mit der Nummer 1 gehört dem Bundespräsidenten</item>
+        <item>Ein Fahrzeug mit der Nummer 2 gehört der Bundeskanzlerin</item>
+        <item>Ein Fahrzeug mit der Nummer 3 gehört dem Bundesminister des Auswärtigen</item>
+        <item>Ein Fahrzeug mit der Nummer 4 gehört dem Ersten Staatssekretär des Auswärtigen Amts</item>
+        <item>Ein Fahrzeug mit der Nummer 5 gehört dem Zweiten Staatssekretär des Auswärtigen Amts</item>
+        <item>Ein Fahrzeug mit der Nummer 6 gehört dem Nuntius des Diplomatischen Corps</item>
+
+        <item>Ein Fahrzeug mit der Nummer 10 gehört zum Diplomatischen Kor von Vatikanstadt</item>
+        <item>Ein Fahrzeug mit der Nummer 11 gehört zum Diplomatischen Kor von Ägypten</item>
+        <item>Ein Fahrzeug mit der Nummer 12 gehört zum Diplomatischen Kor von Angola</item>
+        <item>Ein Fahrzeug mit der Nummer 13 gehört zum Diplomatischen Kor von Albanien</item>
+        <item>Ein Fahrzeug mit der Nummer 14 gehört zum Diplomatischen Kor von Äthiopien</item>
+        <item>Ein Fahrzeug mit der Nummer 15 gehört zum Diplomatischen Kor von Afghanistan</item>
+        <item>Ein Fahrzeug mit der Nummer 16 gehört zum Diplomatischen Kor von Algerien</item>
+        <item>Ein Fahrzeug mit der Nummer 17 gehört zum Diplomatischen Kor der Vereinigten Staaten von Amerika</item>
+        <item>Ein Fahrzeug mit der Nummer 18 gehört zum Diplomatischen Kor von Argentinien</item>
+        <item>Ein Fahrzeug mit der Nummer 19 gehört zum Diplomatischen Kor von Australien</item>
+        <item>Ein Fahrzeug mit der Nummer 20 gehört zum Diplomatischen Kor von Bangladesch</item>
+        <item>Ein Fahrzeug mit der Nummer 21 gehört zum Diplomatischen Kor von Belgien</item>
+        <item>Ein Fahrzeug mit der Nummer 22 gehört zum Diplomatischen Kor von Brunei</item>
+        <item>Ein Fahrzeug mit der Nummer 23 gehört zum Diplomatischen Kor von Bulgarien</item>
+        <item>Ein Fahrzeug mit der Nummer 24 gehört zum Diplomatischen Kor von Myanmar</item>
+        <item>Ein Fahrzeug mit der Nummer 25 gehört zum Diplomatischen Kor von Bolivien</item>
+        <item>Ein Fahrzeug mit der Nummer 26 gehört zum Diplomatischen Kor von Brasilien</item>
+        <item>Ein Fahrzeug mit der Nummer 27 gehört zum Diplomatischen Kor von Burundi</item>
+        <item>Ein Fahrzeug mit der Nummer 28 gehört zum Diplomatischen Kor von Chile</item>
+        <item>Ein Fahrzeug mit der Nummer 29 gehört zum Diplomatischen Kor der Volksrepublik China</item>
+        <item>Ein Fahrzeug mit der Nummer 30 gehört zum Diplomatischen Kor von Costa Rica</item>
+        <item>Ein Fahrzeug mit der Nummer 31 gehört zum Diplomatischen Kor von Weißrussland</item>
+        <item>Ein Fahrzeug mit der Nummer 32 gehört zum Diplomatischen Kor von Bosnien und Herzegowina</item>
+        <item>Ein Fahrzeug mit der Nummer 33 gehört zum Diplomatischen Kor von Äquatorialguinea</item>
+        <item>Ein Fahrzeug mit der Nummer 34 gehört zum Diplomatischen Kor von Dänemark</item>
+        <item>Ein Fahrzeug mit der Nummer 35 gehört zum Diplomatischen Kor von Benin</item>
+        <item>Ein Fahrzeug mit der Nummer 36 gehört zum Diplomatischen Kor der Dominikanischen Republik</item>
+        <item>Ein Fahrzeug mit der Nummer 37 gehört zum Diplomatischen Kor von Ecuador</item>
+        <item>Ein Fahrzeug mit der Nummer 38 gehört zum Diplomatischen Kor der Elfenbeinküste</item>
+        <item>Ein Fahrzeug mit der Nummer 39 gehört zum Diplomatischen Kor von El Salvador</item>
+        <item>Ein Fahrzeug mit der Nummer 40 gehört zum Diplomatischen Kor des Kosovo</item>
+        <item>Ein Fahrzeug mit der Nummer 41 gehört zum Diplomatischen Kor von Estland</item>
+        <item>Ein Fahrzeug mit der Nummer 42 gehört zum Diplomatischen Kor vom Fürstentum Liechtenstein</item>
+        <item>Ein Fahrzeug mit der Nummer 43 gehört zum Diplomatischen Kor von Montenegro</item>
+        <item>Ein Fahrzeug mit der Nummer 44 gehört zum Diplomatischen Kor von Finnland</item>
+        <item>Ein Fahrzeug mit der Nummer 45 gehört zum Diplomatischen Kor von Frankreich</item>
+        <item>Ein Fahrzeug mit der Nummer 46 gehört zum Diplomatischen Kor von Gabun</item>
+        <item>Ein Fahrzeug mit der Nummer 47 gehört zum Diplomatischen Kor von Ghana</item>
+        <item>Ein Fahrzeug mit der Nummer 48 gehört zum Diplomatischen Kor von Griechenland</item>
+        <item>Ein Fahrzeug mit der Nummer 49 gehört zum Diplomatischen Kor von Großbritannien</item>
+        <item>Ein Fahrzeug mit der Nummer 50 gehört zum Diplomatischen Kor von Guatemala</item>
+        <item>Ein Fahrzeug mit der Nummer 51 gehört zum Diplomatischen Kor von Guinea</item>
+        <item>Ein Fahrzeug mit der Nummer 52 gehört zum Diplomatischen Kor von Lettland</item>
+        <item>Ein Fahrzeug mit der Nummer 53 gehört zum Diplomatischen Kor von Litauen</item>
+        <item>Ein Fahrzeug mit der Nummer 54 gehört zum Diplomatischen Kor von Haiti</item>
+        <item>Ein Fahrzeug mit der Nummer 55 gehört zum Diplomatischen Kor von Honduras</item>
+        <item>Ein Fahrzeug mit der Nummer 56 gehört zum Diplomatischen Kor von Indien</item>
+        <item>Ein Fahrzeug mit der Nummer 57 gehört zum Diplomatischen Kor von Indonesien</item>
+        <item>Ein Fahrzeug mit der Nummer 58 gehört zum Diplomatischen Kor vom Irak</item>
+        <item>Ein Fahrzeug mit der Nummer 59 gehört zum Diplomatischen Kor von Iran</item>
+        <item>Ein Fahrzeug mit der Nummer 60 gehört zum Diplomatischen Kor von Irland</item>
+        <item>Ein Fahrzeug mit der Nummer 61 gehört zum Diplomatischen Kor von Island</item>
+        <item>Ein Fahrzeug mit der Nummer 62 gehört zum Diplomatischen Kor von Laos</item>
+        <item>Ein Fahrzeug mit der Nummer 63 gehört zum Diplomatischen Kor der Inseln von Kap Verde</item>
+        <item>Ein Fahrzeug mit der Nummer 64 gehört zum Diplomatischen Kor von Israel</item>
+        <item>Ein Fahrzeug mit der Nummer 65 gehört zum Diplomatischen Kor von Italien</item>
+        <item>Ein Fahrzeug mit der Nummer 66 gehört zum Diplomatischen Kor von Jamaika</item>
+        <item>Ein Fahrzeug mit der Nummer 67 gehört zum Diplomatischen Kor von Japan</item>
+        <item>Ein Fahrzeug mit der Nummer 68 gehört zum Diplomatischen Kor vom Jemen</item>
+        <item>Ein Fahrzeug mit der Nummer 69 gehört zum Diplomatischen Kor von Jordanien</item>
+        <item>Ein Fahrzeug mit der Nummer 70 gehört zum Diplomatischen Kor von Serbien</item>
+        <item>Ein Fahrzeug mit der Nummer 71 gehört zum Diplomatischen Kor von Kuwait</item>
+        <item>Ein Fahrzeug mit der Nummer 72 gehört zum Diplomatischen Kor von Kuba</item>
+        <item>Ein Fahrzeug mit der Nummer 73 gehört zum Diplomatischen Kor von Katar</item>
+        <item>Ein Fahrzeug mit der Nummer 74 gehört zum Diplomatischen Kor von Kamerun</item>
+        <item>Ein Fahrzeug mit der Nummer 75 gehört zum Diplomatischen Kor von Kanada</item>
+        <item>Ein Fahrzeug mit der Nummer 76 gehört zum Diplomatischen Kor von Kenia</item>
+        <item>Ein Fahrzeug mit der Nummer 77 gehört zum Diplomatischen Kor von Kolumbien</item>
+        <item>Ein Fahrzeug mit der Nummer 78 gehört zum Diplomatischen Kor der Republik Kongo</item>
+        <item>Ein Fahrzeug mit der Nummer 79 gehört zum Diplomatischen Kor von Südkorea</item>
+        <item>Ein Fahrzeug mit der Nummer 80 gehört zum Diplomatischen Kor vom Libanon</item>
+        <item>Ein Fahrzeug mit der Nummer 81 gehört zum Diplomatischen Kor von Liberia</item>
+        <item>Ein Fahrzeug mit der Nummer 82 gehört zum Diplomatischen Kor von Libyen</item>
+        <item>Ein Fahrzeug mit der Nummer 83 gehört zum Diplomatischen Kor von Lesotho</item>
+        <item>Ein Fahrzeug mit der Nummer 84 gehört zum Diplomatischen Kor von Luxemburg</item>
+        <item>Ein Fahrzeug mit der Nummer 85 gehört zum Diplomatischen Kor von Madagaskar</item>
+        <item>Ein Fahrzeug mit der Nummer 86 gehört zum Diplomatischen Kor von Malawi</item>
+        <item>Ein Fahrzeug mit der Nummer 87 gehört zum Diplomatischen Kor von Malaysia</item>
+        <item>Ein Fahrzeug mit der Nummer 88 gehört zum Diplomatischen Kor von Mali</item>
+        <item>Ein Fahrzeug mit der Nummer 89 gehört zum Diplomatischen Kor von Marokko</item>
+        <item>Ein Fahrzeug mit der Nummer 90 gehört zum Diplomatischen Kor von Mauretanien</item>
+        <item>Ein Fahrzeug mit der Nummer 91 gehört zum Diplomatischen Kor von Mexiko</item>
+        <item>Ein Fahrzeug mit der Nummer 92 gehört zum Diplomatischen Kor von Malta</item>
+        <item>Ein Fahrzeug mit der Nummer 93 gehört zum Diplomatischen Kor von Monaco</item>
+        <item>Ein Fahrzeug mit der Nummer 94 gehört zum Diplomatischen Kor von Nepal</item>
+        <item>Ein Fahrzeug mit der Nummer 95 gehört zum Diplomatischen Kor von Neuseeland</item>
+        <item>Ein Fahrzeug mit der Nummer 96 gehört zum Diplomatischen Kor von Nicaragua</item>
+        <item>Ein Fahrzeug mit der Nummer 97 gehört zum Diplomatischen Kor der Niederlande</item>
+        <item>Ein Fahrzeug mit der Nummer 98 gehört zum Diplomatischen Kor von Niger</item>
+        <item>Ein Fahrzeug mit der Nummer 99 gehört zum Diplomatischen Kor von Nigeria</item>
+        <item>Ein Fahrzeug mit der Nummer 100 gehört zum Diplomatischen Kor von Norwegen</item>
+        <item>Ein Fahrzeug mit der Nummer 101 gehört zum Diplomatischen Kor der Mongolei</item>
+        <item>Ein Fahrzeug mit der Nummer 102 gehört zum Diplomatischen Kor von Mosambik</item>
+        <item>Ein Fahrzeug mit der Nummer 103 gehört zum Diplomatischen Kor von Oman</item>
+        <item>Ein Fahrzeug mit der Nummer 104 gehört zum Diplomatischen Kor von Burkina Faso</item>
+        <item>Ein Fahrzeug mit der Nummer 105 gehört zum Diplomatischen Kor von Österreich</item>
+        <item>Ein Fahrzeug mit der Nummer 106 gehört zum Diplomatischen Kor von Pakistan</item>
+        <item>Ein Fahrzeug mit der Nummer 107 gehört zum Diplomatischen Kor von Panama</item>
+        <item>Ein Fahrzeug mit der Nummer 108 gehört zum Diplomatischen Kor von Paraguay</item>
+        <item>Ein Fahrzeug mit der Nummer 109 gehört zum Diplomatischen Kor von Peru</item>
+        <item>Ein Fahrzeug mit der Nummer 110 gehört zum Diplomatischen Kor der Philippinen</item>
+        <item>Ein Fahrzeug mit der Nummer 111 gehört zum Diplomatischen Kor von Polen</item>
+        <item>Ein Fahrzeug mit der Nummer 112 gehört zum Diplomatischen Kor von Portugal</item>
+        <item>Ein Fahrzeug mit der Nummer 113 gehört zum Diplomatischen Kor von Papua Neuguinea</item>
+        <item>Ein Fahrzeug mit der Nummer 114 gehört zum Diplomatischen Kor von Namibia</item>
+        <item>Ein Fahrzeug mit der Nummer 115 gehört zum Diplomatischen Kor von Ruanda</item>
+        <item>Ein Fahrzeug mit der Nummer 116 gehört zum Diplomatischen Kor von Rumänien</item>
+        <item>Ein Fahrzeug mit der Nummer 117 gehört zum Diplomatischen Kor von Sambia</item>
+        <item>Ein Fahrzeug mit der Nummer 118 gehört zum Diplomatischen Kor von Saudi Arabien</item>
+        <item>Ein Fahrzeug mit der Nummer 119 gehört zum Diplomatischen Kor von Schweden</item>
+        <item>Ein Fahrzeug mit der Nummer 120 gehört zum Diplomatischen Kor der Schweiz</item>
+        <item>Ein Fahrzeug mit der Nummer 121 gehört zum Diplomatischen Kor vom Senegal</item>
+        <item>Ein Fahrzeug mit der Nummer 122 gehört zum Diplomatischen Kor von Sierra Leone</item>
+        <item>Ein Fahrzeug mit der Nummer 123 gehört zum Diplomatischen Kor von Singapur</item>
+        <item>Ein Fahrzeug mit der Nummer 124 gehört zum Diplomatischen Kor von Simbabwe</item>
+        <item>Ein Fahrzeug mit der Nummer 125 gehört zum Diplomatischen Kor von Somalia</item>
+        <item>Ein Fahrzeug mit der Nummer 126 gehört zum Diplomatischen Kor von Spanien</item>
+        <item>Ein Fahrzeug mit der Nummer 127 gehört zum Diplomatischen Kor von Sri Lanka</item>
+        <item>Ein Fahrzeug mit der Nummer 128 gehört zum Diplomatischen Kor vom Sudan</item>
+        <item>Ein Fahrzeug mit der Nummer 129 gehört zum Diplomatischen Kor von Südafrika</item>
+        <item>Ein Fahrzeug mit der Nummer 130 gehört zum Diplomatischen Kor von Syrien</item>
+        <item>Ein Fahrzeug mit der Nummer 131 gehört zum Diplomatischen Kor von Tansania</item>
+        <item>Ein Fahrzeug mit der Nummer 132 gehört zum Diplomatischen Kor von Thailand</item>
+        <item>Ein Fahrzeug mit der Nummer 133 gehört zum Diplomatischen Kor von Togo</item>
+        <item>Ein Fahrzeug mit der Nummer 134 gehört zum Diplomatischen Kor von Tonga</item>
+        <item>Ein Fahrzeug mit der Nummer 135 gehört zum Diplomatischen Kor von Tschechien</item>
+        <item>Ein Fahrzeug mit der Nummer 136 gehört zum Diplomatischen Kor vom Tschad</item>
+        <item>Ein Fahrzeug mit der Nummer 137 gehört zum Diplomatischen Kor der Türkei</item>
+        <item>Ein Fahrzeug mit der Nummer 138 gehört zum Diplomatischen Kor von Tunesien</item>
+        <item>Ein Fahrzeug mit der Nummer 139 gehört zum Diplomatischen Kor von Uganda</item>
+        <item>Ein Fahrzeug mit der Nummer 140 gehört zum Diplomatischen Kor von Russland</item>
+        <item>Ein Fahrzeug mit der Nummer 141 gehört zum Diplomatischen Kor von Uruguay</item>
+        <item>Ein Fahrzeug mit der Nummer 142 gehört zum Diplomatischen Kor von Ungarn</item>
+        <item>Ein Fahrzeug mit der Nummer 143 gehört zum Diplomatischen Kor der Ukraine</item>
+        <item>Ein Fahrzeug mit der Nummer 144 gehört zum Diplomatischen Kor von Grenada</item>
+        <item>Ein Fahrzeug mit der Nummer 146 gehört zum Diplomatischen Kor von Venezuela</item>
+        <item>Ein Fahrzeug mit der Nummer 147 gehört zum Diplomatischen Kor von Vietnam</item>
+        <item>Ein Fahrzeug mit der Nummer 148 gehört zum Diplomatischen Kor der Vereinigten Arabischen Emirate</item>
+        <item>Ein Fahrzeug mit der Nummer 151 gehört zum Diplomatischen Kor der Demokratischen Republik Kongo</item>
+        <item>Ein Fahrzeug mit der Nummer 152 gehört zum Diplomatischen Kor der Zentralafrikanischen Republik</item>
+        <item>Ein Fahrzeug mit der Nummer 153 gehört zum Diplomatischen Kor von Zypern</item>
+        <item>Ein Fahrzeug mit der Nummer 154 gehört zum Diplomatischen Kor von Kroatien</item>
+        <item>Ein Fahrzeug mit der Nummer 155 gehört zum Diplomatischen Kor von Slowenien</item>
+        <item>Ein Fahrzeug mit der Nummer 156 gehört zum Diplomatischen Kor von Aserbaidschan</item>
+        <item>Ein Fahrzeug mit der Nummer 157 gehört zum Diplomatischen Kor der Slowakei</item>
+        <item>Ein Fahrzeug mit der Nummer 158 gehört zum Diplomatischen Kor von Kasachstan</item>
+        <item>Ein Fahrzeug mit der Nummer 159 gehört zum Diplomatischen Kor von Mazedonien</item>
+        <item>Ein Fahrzeug mit der Nummer 160 gehört zum Diplomatischen Kor von Usbekistan</item>
+        <item>Ein Fahrzeug mit der Nummer 161 gehört zum Diplomatischen Kor von Eritrea</item>
+        <item>Ein Fahrzeug mit der Nummer 162 gehört zum Diplomatischen Kor von Georgien</item>
+        <item>Ein Fahrzeug mit der Nummer 163 gehört zum Diplomatischen Kor von Tadschikistan</item>
+        <item>Ein Fahrzeug mit der Nummer 164 gehört zum Diplomatischen Kor von Bahrain</item>
+        <item>Ein Fahrzeug mit der Nummer 165 gehört zum Diplomatischen Kor von Kambodscha</item>
+        <item>Ein Fahrzeug mit der Nummer 166 gehört zum Diplomatischen Kor von Armenien</item>
+        <item>Ein Fahrzeug mit der Nummer 167 gehört zum Diplomatischen Kor von Kirgisistan</item>
+        <item>Ein Fahrzeug mit der Nummer 168 gehört zum Diplomatischen Kor von Moldawien</item>
+        <item>Ein Fahrzeug mit der Nummer 169 gehört zum Diplomatischen Kor von Turkmenistan</item>
+
+        <item>Ein Fahrzeug mit der Nummer 170 gehört zur Internationalen Arbeitsorganisation</item>
+        <item>Ein Fahrzeug mit der Nummer 171 gehört zur Europäischen Zentralbank</item>
+        <item>Ein Fahrzeug mit der Nummer 173 gehört zu den Vereinten Nationen</item>
+        <item>Ein Fahrzeug mit der Nummer 174 gehört zur Gemeinsamen Organisation für Rüstungskooperation</item>
+        <item>Ein Fahrzeug mit der Nummer 175 gehört zur Internationalen Organisation für Migration</item>
+        <item>Ein Fahrzeug mit der Nummer 176 gehört zum Büro der Liga der Arabischen Staaten</item>
+        <item>Ein Fahrzeug mit der Nummer 177 gehört zum Deutsch-Französischen Jugendwerk</item>
+        <item>Ein Fahrzeug mit der Nummer 180 gehört zur Europäischen Südsternwarte</item>
+        <item>Ein Fahrzeug mit der Nummer 181 gehört zum Europäischen Laboratorium für Molekularbiologie</item>
+        <item>Ein Fahrzeug mit der Nummer 182 gehört zur Europäischen Kommission</item>
+        <item>Ein Fahrzeug mit der Nummer 185 gehört zum Welternährungsprogramm der Vereinten Nationen</item>
+        <item>Ein Fahrzeug mit der Nummer 189 gehört zum Deutsch-Polnischen Jugendwerk</item>
+        <item>Ein Fahrzeug mit der Nummer 190 gehört zur Weltbank</item>
+        <item>Ein Fahrzeug mit der Nummer 191 gehört zur Weltgesundheitsorganisation</item>
+        <item>Ein Fahrzeug mit der Nummer 192 gehört zum Umweltprogramm der Vereinten Nationen</item>
+        <item>Ein Fahrzeug mit der Nummer 193 gehört zum Sekretariat der Klimarahmen-Konvention</item>
+        <item>Ein Fahrzeug mit der Nummer 194 gehört zum Freiwilligenprogramm der Vereinten Nationen</item>
+        <item>Ein Fahrzeug mit der Nummer 195 gehört zum Internationalen Seegerichtshof</item>
+        <item>Ein Fahrzeug mit der Nummer 196 gehört zu UN-Einrichtungen in Bonn</item>
+        <item>Ein Fahrzeug mit der Nummer 197 gehört zum UN-Sekretariat der Wüstenkonvention</item>
+        <item>Ein Fahrzeug mit der Nummer 198 gehört zum Internationalen Zentrum für Berufsbildung</item>
+        <item>Ein Fahrzeug mit der Nummer 199 gehört zur Universität der Vereinten Nationen</item>
+
+        <item>Ein Fahrzeug mit der Nummer 200 gehört zum Diplomatischen Kor von Mauritius</item>
+        <item>Ein Fahrzeug mit der Nummer 201 gehört zum Diplomatischen Kor der Demokratischen Volksrepublik Korea</item>
+        <item>Ein Fahrzeug mit der Nummer 202 gehört zum Diplomatischen Kor von Dschibuti</item>
+        <item>Ein Fahrzeug mit der Nummer 203 gehört zum Diplomatischen Kor von Guinea Bissau</item>
+        <item>Ein Fahrzeug mit der Nummer 204 gehört zum Diplomatischen Kor des Südsudan</item>
+        <item>Ein Fahrzeug mit der Nummer 205 gehört zum Diplomatischen Kor von Botsuana</item>
+
+        <item>Ein Fahrzeug mit der Nummer 300 gehört zur Plattform der Vereinten Nationen für raumfahrtgestützte Informationen für Katastrophenmanagement und Notfallmaßnahmen</item>
+        <item>Ein Fahrzeug mit der Nummer 301 gehört zum Sekretariat für die Studie „Die Ökonomie der Ökosysteme und der biologischen Vielfalt“</item>
+        <item>Ein Fahrzeug mit der Nummer 302 gehört zur Internationalen Organisation für Erneuerbare Energien</item>
+        <item>Ein Fahrzeug mit der Nummer 303 gehört zum Welttreuhandfonds für Kulturpflanzenvielfalt</item>
+    </string-array>
+</resources>

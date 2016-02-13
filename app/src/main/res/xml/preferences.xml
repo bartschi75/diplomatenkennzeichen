@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_einstellungen"
+        android:key="pref_key_settings">
+        <SwitchPreference
+            android:key="pref_speech"
+            android:title="@string/pref_speech"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="pref_connection"
+            android:title="@string/pref_connection"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_info"
+        android:key="pref_key_info">
+        <EditTextPreference
+            android:title="Diplomatenkennzeichen Version 1.4"/>
+        <EditTextPreference
+            android:title="von Sebastian Bartsch"/>
+    </PreferenceCategory>
+</PreferenceScreen>
